@@ -21,12 +21,12 @@ int main() {
 
     printf("Digite o código da Carta EX, X00: \n");
     scanf ("%s", &código1);
-
+    
     printf("Digite o Nome do Estado: \n");
-    scanf ("%s", &estado1);
+    scanf (" %[^\n]", &estado1);
 
     printf("Digite o Nome da cidade: \n");
-    scanf ("%s", &cidade1);
+    scanf (" %[^\n]", &cidade1);
 
     printf("Digite a população: \n");
     scanf ("%d", &populacao1);
@@ -52,10 +52,10 @@ int main() {
     scanf ("%s", &código2);
 
     printf("Digite o Nome do Estado: \n");
-    scanf ("%s", &estado2);
+    scanf (" %[^\n]", &estado2);
 
     printf("Digite o Nome da cidade: \n");
-    scanf ("%s", &cidade2);
+    scanf (" %[^\n]", &cidade2);
 
     printf("Digite a população: \n");
     scanf ("%d", &populacao2);

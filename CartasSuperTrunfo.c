@@ -89,7 +89,7 @@ int main() {
      printf ("Sua população é: %d\n", populacao2);
      printf ("Sua área em milhões é: %f\n", área2);
      printf ("Seu Pib é:%f\n", pib2);
-     printf ("numeros de pontos turisticos:%d", pontos1);
+     printf ("numeros de pontos turisticos:%d", pontos2);
 
      
      

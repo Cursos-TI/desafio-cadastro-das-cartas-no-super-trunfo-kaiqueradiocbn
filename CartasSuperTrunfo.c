@@ -6,6 +6,8 @@ int main() {
     
     // Valores variasveis Carta 1 e Carta 2
 
+        char estado1[30], estado2[30];
+        char cidade1[30],cidade2[30];   
         char código1[4], código2[4];
         int populacao1, populacao2;
         float área1, área2;
@@ -19,6 +21,12 @@ int main() {
 
     printf("Digite o código da Carta EX, X00: \n");
     scanf ("%s", &código1);
+
+    printf("Digite o Nome do Estado: \n");
+    scanf ("%s", &estado1);
+
+    printf("Digite o Nome da cidade: \n");
+    scanf ("%s", &cidade1);
 
     printf("Digite a população: \n");
     scanf ("%d", &populacao1);
@@ -42,6 +50,12 @@ int main() {
 
     printf("Digite o código da Carta EX, X00: \n");
     scanf ("%s", &código2);
+
+    printf("Digite o Nome do Estado: \n");
+    scanf ("%s", &estado2);
+
+    printf("Digite o Nome da cidade: \n");
+    scanf ("%s", &cidade2);
 
     printf("Digite a população: \n");
     scanf ("%d", &populacao2);

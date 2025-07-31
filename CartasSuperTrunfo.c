@@ -6,7 +6,7 @@ int main() {
     
     // Valores variasveis Carta 1 e Carta 2
 
-        char código1[A01], código2[B02];
+        char código1[4], código2[4];
         int populacao1, populacao2;
         float área1, área2;
         float pib1, pib2;
@@ -15,7 +15,7 @@ int main() {
     //Cadastro Carta 1
 
 
-    printf ("Carta A01:\n");
+    printf ("Carta 1:\n");
 
     printf("Digite o código da Carta EX, X00: \n");
     scanf ("%s", &código1);
@@ -38,7 +38,7 @@ int main() {
 
 
    
-    printf ("Carta B02:\n");
+    printf ("Carta 2:\n");
 
     printf("Digite o código da Carta EX, X00: \n");
     scanf ("%s", &código2);
@@ -58,18 +58,18 @@ int main() {
      //Dados de saída Carta 1
 
      printf ("Carta 1\n");
-     printf ("Seu Código é: %s\n");
-     printf ("Sua população é: %d\n");
-     printf ("Sua área em milhões é %f:\n");
-     printf ("Seu Pib é:%d\n");
+     printf ("Seu Código é: %s\n", código1);
+     printf ("Sua população é: %d\n", populacao1);
+     printf ("Sua área em milhões é %f:\n", área1);
+     printf ("Seu Pib é:%d\n", pib1);
 
           //Dados de saída Carta 2
 
-     printf ("Carta 1\n");
-     printf ("Seu Código é: %s\n");
-     printf ("Sua população é: %d\n");
-     printf ("Sua área em milhões é: %f\n");
-     printf ("Seu Pib é:%d\n");
+     printf ("Carta 2\n");
+     printf ("Seu Código é: %s\n", código2);
+     printf ("Sua população é: %d\n", populacao2);
+     printf ("Sua área em milhões é: %f\n", área2);
+     printf ("Seu Pib é:%d\n", pib2);
 
      
      

@@ -6,49 +6,34 @@ int main() {
     
     // Valores variasveis Carta 1 e Carta 2
 
-        char código1[4], código2[4]
-        int Populacao1, Populacao2;
-        float Área1, Área2;
-        float Pib1, Pib2;
-        int Pontos1, Pontos2;   
+        char código1[4], código2[4];
+        int populacao1, populacao2;
+        float área1, área2;
+        float pib1, pib2;
+        int pontos1, pontos2;   
         
     //Cadastro Carta 1
     printf ("Carta 1:\n");
-
-    printf ("Código da Carta:");
     scanf ("%s", &código1);
-
-    printf (" Sua População é de:");
-    scanf ("%f", &Populacao1:);
-
-    printf ("Sua Área é de:");
-    scanf ("%f", &Área1);
-
-    printf ("Pib:");
-    scraf ("%f", &Pib1);
-
-    printf (" Pontos Turisticos:");
-    scanf ("%d" &Pontos1)
-
-
+    scanf ("%d", &populacao1);
+    scanf ("%f", &área1);
+    scanf ("%f", &pib1);
+    scanf ("%d", &pontos1);
 
         //Cadastro Carta 2
-    printf ("Carta 2:\n");
-
-    printf ("Código da Carta:");
+    printf ("Carta 1:\n");
     scanf ("%s", &código2);
+    scanf ("%d", &populacao2);
+    scanf ("%f", &área2);
+    scanf ("%f", &pib2);
+    scanf ("%d", &pontos2);
 
-    printf (" Sua População é de:");
-    scanf ("%f", &Populacao2:);
 
-    printf ("Sua Área é de:");
-    scanf ("%f", &Área2);
 
-    printf ("Pib:");
-    scraf ("%f", &Pib2);
+    //Dados de saída
 
-    printf (" Pontos Turisticos:");
-    scanf ("%d" &Pontos2)
+    printf("")
+
 
 
 

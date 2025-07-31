@@ -73,6 +73,8 @@ int main() {
 
      printf ("Carta 1\n");
      printf ("Seu Código é: %s\n", código1);
+     printf ("Seu Estado é: %s\n", estado1);
+     printf ("Sua Cidade é: %s\n", cidade1);
      printf ("Sua população é: %d\n", populacao1);
      printf ("Sua área em milhões é %f:\n", área1);
      printf ("Seu Pib é:%d\n", pib1);
@@ -81,6 +83,8 @@ int main() {
 
      printf ("Carta 2\n");
      printf ("Seu Código é: %s\n", código2);
+     printf ("Seu Estado é: %s\n", estado2);
+     printf ("Sua Cidade é: %s\n", cidade2);
      printf ("Sua população é: %d\n", populacao2);
      printf ("Sua área em milhões é: %f\n", área2);
      printf ("Seu Pib é:%d\n", pib2);

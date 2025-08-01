@@ -13,6 +13,8 @@ int main() {
         float área1, área2;
         float pib1, pib2;
         int pontos1, pontos2;   
+        float populacional1, populacional2;
+        float capita1, capita2;
         
     //Cadastro Carta 1
 
@@ -42,7 +44,7 @@ int main() {
 
 
 
-        //Cadastro Carta 2
+    //Cadastro Carta 2
 
 
    

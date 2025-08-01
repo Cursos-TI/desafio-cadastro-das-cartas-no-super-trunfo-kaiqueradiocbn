@@ -15,6 +15,7 @@ int main() {
         int pontos1, pontos2;   
         float populacional1, populacional2;
         float capita1, capita2;
+
         
     //Cadastro Carta 1
 
@@ -41,6 +42,7 @@ int main() {
 
     printf ("Digite quantos pontos turísticos: \n");
     scanf ("%d", &pontos1);
+
 
 
 
@@ -71,6 +73,15 @@ int main() {
     printf ("Digite quantos pontos turísticos: \n");
     scanf ("%d", &pontos2);
 
+
+
+     //contas para dar o Populacional e Capita
+
+     populacional1 = (populacao1 / área1);
+     populacional2 = (populacao2 / área2);
+     capita1 = (pib1 / populacao1);
+     capita2 = (pib2 / populacao2);
+    
 
      //Dados de saída Carta 1
      

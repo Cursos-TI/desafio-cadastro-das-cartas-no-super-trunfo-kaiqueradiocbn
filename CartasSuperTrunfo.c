@@ -79,8 +79,9 @@ int main() {
 
      populacional1 = (populacao1 / área1);
      populacional2 = (populacao2 / área2);
-     capita1 = (pib1 / populacao1);
-     capita2 = (pib2 / populacao2);
+     capita1 = (pib1 * 1000000000.0f) / populacao1;
+     capita2 = (pib2 * 1000000000.0f) / populacao2;
+    
     
 
      //Dados de saída Carta 1
@@ -91,11 +92,11 @@ int main() {
      printf ("Seu Estado é: %s\n", estado1);
      printf ("Sua Cidade é: %s\n", cidade1);
      printf ("Sua população é: %d\n", populacao1);
-     printf ("Sua área é: %f\n", área1);
-     printf ("Seu Pib é:%f\n", pib1);
+     printf ("Sua área é: %.2f\n", área1);
+     printf ("Seu Pib é:%.2f\n", pib1);
      printf ("numeros de pontos turisticos:%d\n", pontos1);
-     printf ("Densidade Populacional:%f\n", populacional1);
-     printf("PIB per Capita:%f\n", capita1);
+     printf ("Densidade Populacional:%.2f\n", populacional1);
+     printf("PIB per Capita:%.2f\n", capita1);
 
 
           //Dados de saída Carta 2
@@ -105,11 +106,11 @@ int main() {
      printf ("Seu Estado é: %s\n", estado2);
      printf ("Sua Cidade é: %s\n", cidade2);
      printf ("Sua população é: %d\n", populacao2);
-     printf ("Sua área é: %f\n", área2);
-     printf ("Seu Pib é:%f\n", pib2);
+     printf ("Sua área é: %.2f\n", área2);
+     printf ("Seu Pib é:%.2f\n", pib2);
      printf ("numeros de pontos turisticos:%d\n", pontos2);
-     printf ("Densidade Populacional:%f\n", populacional2);
-     printf("PIB per Capita:%f\n", capita2);
+     printf ("Densidade Populacional:%.2f\n", populacional2);
+     printf("PIB per Capita:%.2f\n", capita2);
      
      
 

@@ -77,10 +77,10 @@ int main() {
 
      //contas para dar o Populacional e Capita
 
-     populacional1 = (populacao1 / área1);
-     populacional2 = (populacao2 / área2);
-     capita1 = (pib1 * 1000000000.0f) / populacao1;
-     capita2 = (pib2 * 1000000000.0f) / populacao2;
+     populacional1 = (float)(populacao1 / área1);
+     populacional2 = (float)(populacao2 / área2);
+     capita1 = (float)(pib1 * 1000000000.0f) / populacao1;
+     capita2 = (float)(pib2 * 1000000000.0f) / populacao2;
     
     
 

@@ -94,6 +94,8 @@ int main() {
      printf ("Sua área é: %f\n", área1);
      printf ("Seu Pib é:%f\n", pib1);
      printf ("numeros de pontos turisticos:%d\n", pontos1);
+     printf ("Densidade Populacional:%f\n", populacional1);
+     printf("PIB per Capita:%f\n", capita1);
 
 
           //Dados de saída Carta 2
@@ -106,7 +108,8 @@ int main() {
      printf ("Sua área é: %f\n", área2);
      printf ("Seu Pib é:%f\n", pib2);
      printf ("numeros de pontos turisticos:%d\n", pontos2);
-
+     printf ("Densidade Populacional:%f\n", populacional2);
+     printf("PIB per Capita:%f\n", capita2);
      
      
 

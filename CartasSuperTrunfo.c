@@ -71,6 +71,7 @@ int main() {
 
 
      //Dados de saída Carta 1
+     
 
      printf ("Carta 1\n");
      printf ("Seu Código é: %s\n", código1);
@@ -80,6 +81,7 @@ int main() {
      printf ("Sua área em milhões é: %f\n", área1);
      printf ("Seu Pib é:%f\n", pib1);
      printf ("numeros de pontos turisticos:%d", pontos1);
+
 
           //Dados de saída Carta 2
 

@@ -15,6 +15,8 @@ int main() {
         int pontos1, pontos2;   
         float populacional1, populacional2;
         float capita1, capita2;
+        float superpoder1;
+        float superpoder2;
 
         
     //Cadastro Carta 1
@@ -81,6 +83,12 @@ int main() {
      populacional2 = (float)(populacao2 / área2);
      capita1 = (float)(pib1 * 1000000000.0f) / populacao1;
      capita2 = (float)(pib2 * 1000000000.0f) / populacao2;
+
+     // Soma Super poder
+    superpoder1 = (float)(populacao1 + área1 + capita1);
+    superpoder2 = (float)(populacao2 + área2 + capita2);
+
+
     
     
      //Dados de saída Carta 1

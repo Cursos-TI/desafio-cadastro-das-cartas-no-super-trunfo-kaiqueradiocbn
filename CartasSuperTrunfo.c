@@ -104,9 +104,10 @@ int main() {
      printf ("numeros de pontos turisticos:%d\n", pontos1);
      printf ("Densidade Populacional:%.2f\n", populacional1);
      printf("PIB per Capita:%.2f\n", capita1);
+     printf("Super Poder:%.2f\n", superpoder1);
 
 
-          //Dados de saída Carta 2
+     //Dados de saída Carta 2
 
      printf ("Carta 2\n");
      printf ("Seu Código é: %s\n", codigo2);
@@ -118,9 +119,38 @@ int main() {
      printf ("numeros de pontos turisticos:%d\n", pontos2);
      printf ("Densidade Populacional:%.2f\n", populacional2);
      printf("PIB per Capita:%.2f\n", capita2);
-     
+     printf("Super Poder:%.2f\n", superpoder2);
      
 
+     // Comparações
+     
+    printf("População: %s venceu (%d)\n", 
+       populacao1 > populacao2 ? "Carta 1" : "Carta 2", 
+       populacao1 > populacao2);
+
+printf("Área: %s venceu (%d)\n", 
+       area1 > area2 ? "Carta 1" : "Carta 2", 
+       area1 > area2);
+
+printf("PIB: %s venceu (%d)\n", 
+       pib1 > pib2 ? "Carta 1" : "Carta 2", 
+       pib1 > pib2);
+
+printf("Pontos Turísticos: %s venceu (%d)\n", 
+       pontos1 > pontos2 ? "Carta 1" : "Carta 2", 
+       pontos1 > pontos2);
+
+printf("Densidade Populacional: %s venceu (%d)\n", 
+       populacao1 < populacao2 ? "Carta 1" : "Carta 2", 
+       populacao1 < populacao2); // menor vence
+
+printf("PIB per Capita: %s venceu (%d)\n", 
+       capita1 > capita2 ? "Carta 1" : "Carta 2", 
+       capita1 > capita2);
+
+printf("Super Poder: %s venceu (%d)\n", 
+       superpoder1 > superpoder2 ? "Carta 1" : "Carta 2", 
+       superpoder1 > superpoder2);
 
 
    

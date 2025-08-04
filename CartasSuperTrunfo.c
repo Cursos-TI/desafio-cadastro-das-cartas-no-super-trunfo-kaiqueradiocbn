@@ -85,8 +85,8 @@ int main() {
      capita2 = (float)(pib2 * 1000000000.0f) / populacao2;
 
      // Soma Super poder
-    superpoder1 = (float)(populacao1 + area1 + pib1 + capita1 + (1.0f / populacao1));
-    superpoder2 = (float)(populacao2 + area2 + pib2 + capita2 + (1.0f / populacao2));
+    superpoder1 = (float)(populacao1 + area1 + pib1 + capita1 + pontos1 + (1.0f / populacao1));
+    superpoder2 = (float)(populacao2 + area2 + pib2 + capita2 + pontos2 + (1.0f / populacao2));
 
 
     

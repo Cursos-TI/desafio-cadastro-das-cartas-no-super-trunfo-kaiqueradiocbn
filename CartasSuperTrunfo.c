@@ -9,7 +9,7 @@ int main() {
         char estado1[30], estado2[30];
         char cidade1[30],cidade2[30];   
         char código1[5], código2[5];
-        int populacao1, populacao2;
+        unsigned long int populacao1, populacao2;
         float área1, área2;
         float pib1, pib2;
         int pontos1, pontos2;   
@@ -32,7 +32,7 @@ int main() {
     scanf (" %[^\n]", cidade1);
 
     printf("Digite a população: \n");
-    scanf ("%d", &populacao1);
+    scanf ("%lu", &populacao1);
 
     printf ("Digite a área em KM: \n");
     scanf ("%f", &área1);
@@ -62,7 +62,7 @@ int main() {
     scanf (" %[^\n]", cidade2);
 
     printf("Digite a população: \n");
-    scanf ("%d", &populacao2);
+    scanf ("%lu", &populacao2);
 
     printf ("Digite a área em KM: \n");
     scanf ("%f", &área2);
@@ -83,7 +83,6 @@ int main() {
      capita2 = (float)(pib2 * 1000000000.0f) / populacao2;
     
     
-
      //Dados de saída Carta 1
      
 
@@ -91,7 +90,7 @@ int main() {
      printf ("Seu Código é: %s\n", código1);
      printf ("Seu Estado é: %s\n", estado1);
      printf ("Sua Cidade é: %s\n", cidade1);
-     printf ("Sua população é: %d\n", populacao1);
+     printf ("Sua população é: %lu\n", populacao1);
      printf ("Sua área é: %.2f\n", área1);
      printf ("Seu Pib é:%.2f\n", pib1);
      printf ("numeros de pontos turisticos:%d\n", pontos1);

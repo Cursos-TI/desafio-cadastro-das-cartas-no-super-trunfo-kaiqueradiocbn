@@ -1,4 +1,5 @@
 #include <stdio.h>
+
        int main() {
 
        printf("Super Trunfo\n");
@@ -154,7 +155,7 @@ printf("PIB per Capita: %s venceu (%d)\n",
        capita1 > capita2 ? "Carta 1" : "Carta 2", 
        capita1 > capita2);
 
-       
+
 printf("Super Poder: %s venceu (%d)\n", 
        superpoder1 > superpoder2 ? "Carta 1" : "Carta 2", 
        superpoder1 > superpoder2);

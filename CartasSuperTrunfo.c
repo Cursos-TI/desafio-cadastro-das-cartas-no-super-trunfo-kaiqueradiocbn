@@ -124,63 +124,63 @@
      
 
      if(populacao1 >= populacao2){
-       printf(" 1 = População a Carta 1 Venceu.\n");
+       printf(" 1\n");
      }
      else{
-       printf("0 = População a Carta 2 Venceu.\n");
+       printf(" 0.\n");
      }
 
 
      if(area1 >= area2){
-       printf("Área a Carta 1 Venceu.\n");
+       printf("1\n");
      }
      else{
-       printf("Área a Carta 2 venceu.\n");
+       printf("0\n");
      }
 
 
  
      if(pib1 >= pib2){
-       printf("PIB a Carta 1 Venceu.\n");
+       printf("1\n");
      }
      else{
-       printf("Pib a Carta 2 venceu.\n");
+       printf("0\n");
      }
 
    
 
      if(pontos1 >= pontos2){
-       printf("Pontos Turistícos a Carta 1 Venceu.\n");
+       printf("1\n");
      }
      else{
-       printf("Pontos Turistícos a Carta 2 venceu.\n");
+       printf("0\n");
      }
 
 
 
      if(populacional1 <= populacional2){
-       printf("Densidade populacional a Carta 1 Venceu.\n");
+       printf("1\n");
      }
      else{
-       printf("Densidade populacional a Carta 2 venceu.\n");
+       printf("0\n");
      }
 
 
 
     if(capita1 >= capita2){
-       printf("Pib per capita a Carta 1 Venceu.\n");
+       printf("1\n");
      }
      else{
-       printf("Pib per capita a Carta 2 venceu.\n");
+       printf("0\n");
      }
 
 
        
      if(superpoder1 >= superpoder2){
-       printf("Super Poder a Carta 1 Venceu.\n");
+       printf("1\n");
      }
      else{
-       printf("Super Poder a Carta 2 venceu.\n");
+       printf("0\n");
      }
 
 

@@ -79,8 +79,8 @@
 
      populacional1 = (float)(populacao1 / area1);
      populacional2 = (float)(populacao2 / area2);
-     capita1 = (float)(pib1  / populacao1);
-     capita2 = (float)(pib2  / populacao2);
+     capita1 = (float)(pib1 * 1000000000.0f / populacao1);
+     capita2 = (float)(pib2 * 1000000000.0f / populacao2);
 
      
      // Soma Super poder

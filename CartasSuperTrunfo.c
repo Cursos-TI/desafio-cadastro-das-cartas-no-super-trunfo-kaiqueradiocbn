@@ -1,8 +1,8 @@
 #include <stdio.h>
+       int main() {
 
+       printf("Super Trunfo\n");
 
-int main() {
-    printf("Super Trunfo\n");
     
     // Valores variasveis Carta 1 e Carta 2
 
@@ -20,7 +20,6 @@ int main() {
 
         
     //Cadastro Carta 1
-
 
     printf ("Carta 1:\n");
 
@@ -50,8 +49,6 @@ int main() {
 
     //Cadastro Carta 2
 
-
-   
     printf ("Carta 2:\n");
 
     printf("Digite o código da Carta EX, X00: \n");
@@ -84,6 +81,7 @@ int main() {
      capita1 = (float)(pib1 * 1000000000.0f) / populacao1;
      capita2 = (float)(pib2 * 1000000000.0f) / populacao2;
 
+     
      // Soma Super poder
     superpoder1 = (float)(populacao1 + area1 + pib1 + capita1 + pontos1 + (1.0f / populacao1));
     superpoder2 = (float)(populacao2 + area2 + pib2 + capita2 + pontos2 + (1.0f / populacao2));
@@ -93,7 +91,6 @@ int main() {
     
      //Dados de saída Carta 1
      
-
      printf ("Carta 1\n");
      printf ("Seu Código é: %s\n", codigo1);
      printf ("Seu Estado é: %s\n", estado1);
@@ -124,30 +121,40 @@ int main() {
 
      // Comparações
      
-    printf("População: %s venceu (%d)\n", 
+printf("População: %s venceu (%d)\n", 
        populacao1 > populacao2 ? "Carta 1" : "Carta 2", 
        populacao1 > populacao2);
+
+
 
 printf("Área: %s venceu (%d)\n", 
        area1 > area2 ? "Carta 1" : "Carta 2", 
        area1 > area2);
 
+
 printf("PIB: %s venceu (%d)\n", 
        pib1 > pib2 ? "Carta 1" : "Carta 2", 
        pib1 > pib2);
+
+
 
 printf("Pontos Turísticos: %s venceu (%d)\n", 
        pontos1 > pontos2 ? "Carta 1" : "Carta 2", 
        pontos1 > pontos2);
 
+
+
 printf("Densidade Populacional: %s venceu (%d)\n", 
        populacao1 < populacao2 ? "Carta 1" : "Carta 2", 
        populacao1 < populacao2); // menor vence
+
+
 
 printf("PIB per Capita: %s venceu (%d)\n", 
        capita1 > capita2 ? "Carta 1" : "Carta 2", 
        capita1 > capita2);
 
+       
 printf("Super Poder: %s venceu (%d)\n", 
        superpoder1 > superpoder2 ? "Carta 1" : "Carta 2", 
        superpoder1 > superpoder2);

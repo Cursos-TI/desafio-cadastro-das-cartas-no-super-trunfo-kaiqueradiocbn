@@ -34,7 +34,7 @@
     scanf (" %[^\n]", cidade1);
 
     printf("Digite a população: \n");
-    scanf ("%lu", &populacao1);
+    scanf ("%d", &populacao1);
 
     printf ("Digite a área em KM: \n");
     scanf ("%f", &area1);
@@ -62,7 +62,7 @@
     scanf (" %[^\n]", cidade2);
 
     printf("Digite a população: \n");
-    scanf ("%lu", &populacao2);
+    scanf ("%d", &populacao2);
 
     printf ("Digite a área em KM: \n");
     scanf ("%f", &area2);
@@ -79,8 +79,8 @@
 
      populacional1 = (float)(populacao1 / area1);
      populacional2 = (float)(populacao2 / area2);
-     capita1 = (float)(pib1 * 1000000000.0f) / populacao1;
-     capita2 = (float)(pib2 * 1000000000.0f) / populacao2;
+     capita1 = (float)(pib1  / populacao1);
+     capita2 = (float)(pib2  / populacao2);
 
      
      // Soma Super poder
@@ -96,7 +96,7 @@
      printf ("Seu Código é: %s\n", codigo1);
      printf ("Seu Estado é: %s\n", estado1);
      printf ("Sua Cidade é: %s\n", cidade1);
-     printf ("Sua população é: %lu\n", populacao1);
+     printf ("Sua população é: %d\n", populacao1);
      printf ("Sua área é: %.2f\n", area1);
      printf ("Seu Pib é:%.2f\n", pib1);
      printf ("numeros de pontos turisticos:%d\n", pontos1);
@@ -111,7 +111,7 @@
      printf ("Seu Código é: %s\n", codigo2);
      printf ("Seu Estado é: %s\n", estado2);
      printf ("Sua Cidade é: %s\n", cidade2);
-     printf ("Sua população é: %lu\n", populacao2);
+     printf ("Sua população é: %d\n", populacao2);
      printf ("Sua área é: %.2f\n", area2);
      printf ("Seu Pib é:%.2f\n", pib2);
      printf ("numeros de pontos turisticos:%d\n", pontos2);

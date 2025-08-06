@@ -124,62 +124,62 @@
      
 
      if(populacao1 >= populacao2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+       printf(" População Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" População Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
      if(area1 >= area2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+       printf(" Área Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" Área Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
      if(pib1 >= pib2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+       printf(" Pib Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" Pib Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
      if(pontos1 >= pontos2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+       printf(" Pontos Turistícos Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" Pontos Turistícos Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
 
      if(populacional1 <= populacional2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+       printf(" Densidade Populacional Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" Densidade Populacional Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
 
 
-     if(capita1 <= capita2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+     if(capita1 >= capita2){
+       printf(" Per Capita Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" Per Capita Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
 
      if(superpoder1 >= superpoder2){
-       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
+       printf(" Super Poder Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
+       printf(" Super Poder Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 

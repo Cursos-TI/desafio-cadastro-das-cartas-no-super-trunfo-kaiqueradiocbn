@@ -124,62 +124,62 @@
      
 
      if(populacao1 >= populacao2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
      if(area1 >= area2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
      if(pib1 >= pib2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
      if(pontos1 >= pontos2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
 
      if(populacional1 <= populacional2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
 
 
      if(capita1 <= capita2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 
 
      if(superpoder1 >= superpoder2){
-       printf(" Carta 1 Venceu. (%s)\n"  cidade1);
+       printf(" Carta 1 Venceu. (%s)\n",  cidade1);
      }
      else{
-       printf(" Carta 2 Venceu.(%s)\n"  cidade2);
+       printf(" Carta 2 Venceu.(%s)\n",  cidade2);
      }
 
 

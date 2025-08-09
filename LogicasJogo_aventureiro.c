@@ -62,10 +62,41 @@ int main() {
     printf("Digite quantos pontos turísticos: \n");
     scanf("%d", &pontos2);
 
-    // Contas para variaveis Densidade Populacional, Per Capita e Super poder.
+    // Contas para variaveis Densidade Populacional.
 
-    populacional1 = populacao1 / area1;
-    populacional2 = populacao2 / area2;
+    populacional1 = (float) populacao1 / area1;
+    populacional2 = (float)populacao2 / area2;
+
+
+
+    //Exibição dos valores das cartas
+    //Dados de saída Carta 1
+
+     printf ("Carta 1\n");
+     printf ("Seu Código é: %s\n", codigo1);
+     printf ("Seu Estado é: %s\n", estado1);
+     printf ("Sua Cidade é: %s\n", cidade1);
+     printf ("Sua população é: %d\n", populacao1);
+     printf ("Sua área é: %.2f\n", area1);
+     printf ("Seu Pib é:%.2f\n", pib1);
+     printf ("numeros de pontos turisticos:%d\n", pontos1);
+     printf ("Densidade Populacional:%.2f\n", populacional1);
+    
+
+
+     //Dados de saída Carta 2
+
+     printf ("Carta 2\n");
+     printf ("Seu Código é: %s\n", codigo2);
+     printf ("Seu Estado é: %s\n", estado2);
+     printf ("Sua Cidade é: %s\n", cidade2);
+     printf ("Sua população é: %d\n", populacao2);
+     printf ("Sua área é: %.2f\n", area2);
+     printf ("Seu Pib é:%.2f\n", pib2);
+     printf ("numeros de pontos turisticos:%d\n", pontos2);
+     printf ("Densidade Populacional:%.2f\n", populacional2);
+
+
 
 
     // Menu do Jogo
@@ -79,6 +110,8 @@ int main() {
     printf ("Digite sua Opção.\n");
     
     scanf("%d",  &opcao);
+
+
 
    // Jogador escolha qual opção deseja comparar.
 
@@ -125,7 +158,7 @@ switch(opcao){
     break;
     
 
-    case 4://caso escolher Ponto Turísticos.
+    case 4://caso escolher Pontos Turísticos.
     printf ("Opção escolhida foi Pontos Turísticos.\n");
     if (pontos1 > pontos2){
     printf(" Carta 1 venceu ( Pontos %d vs %d)!\n", pontos1, pontos2);
@@ -141,10 +174,10 @@ switch(opcao){
 
     case 5://caso escolher Densidade Populacional.
     printf ("Opção escolhida foi Densidade Populacional.\n");
-    if (populacional1 > populacional2){
+    if (populacional1 < populacional2){
     printf(" Carta 1 venceu ( Populacional %.2f vs %.2f)!\n", populacional1, populacional2);
     }
-    else if (populacional2 > populacional1){
+    else if (populacional2 < populacional1){
     printf(" Carta 2 venceu (Populacional %.2f vs %.2f)!\n", populacional2, populacional1);
     }
     else {

@@ -192,9 +192,6 @@ switch(opcao){
 }
 
 
-   //Comparações usando Switch
-   //População
-
 
 
 

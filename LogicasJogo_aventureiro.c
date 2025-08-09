@@ -14,6 +14,7 @@ int main() {
     float populacional1, populacional2;
     float capita1, capita2;
     float superpoder1, superpoder2;
+    int opcao;
 
 
     // Cadastro Para Jogador Carta 1
@@ -72,4 +73,28 @@ int main() {
     superpoder1 = populacao1 + area1 + pib1 + capita1 + pontos1 + (1.0f / populacional1);
     superpoder2 = populacao2 + area2 + pib2 + capita2 + pontos2 + (1.0f / populacional2);
 
+    // Menu do Jogo
 
+    printf ("Agora escolha qual Opção você deseja comparar:\n");
+    printf ("1. População.\n");
+    printf ("2. Área:\n");
+    printf ("3.PIB.\n");
+    printf ("4. Pontos Turitícos.\n");
+    printf ("5. Densidade Populaciona.\n");
+    printf ("6. Per Capita.\n");
+    printf ("7. Super Poder.\n\n");
+    printf ("Opção.\n");
+
+
+    scanf("%d", &opcao);
+
+    
+
+    return 0;
+
+
+
+
+
+
+}

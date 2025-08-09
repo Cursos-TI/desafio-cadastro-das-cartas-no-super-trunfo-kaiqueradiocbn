@@ -77,8 +77,8 @@
 
      //contas para dar o Populacional e Capita
 
-     populacional1 = (float)(populacao1 / area1);
-     populacional2 = (float)(populacao2 / area2);
+     populacional1 = (populacao1 / area1);
+     populacional2 = (populacao2 / area2);
      capita1 = (float)(pib1 * 1000000000.0f / populacao1);
      capita2 = (float)(pib2 * 1000000000.0f / populacao2);
 

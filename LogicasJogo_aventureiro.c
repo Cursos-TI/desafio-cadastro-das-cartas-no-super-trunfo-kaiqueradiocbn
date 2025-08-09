@@ -12,8 +12,6 @@ int main() {
     float pib1, pib2;
     int pontos1, pontos2;
     float populacional1, populacional2;
-    float capita1, capita2;
-    float superpoder1, superpoder2;
     int opcao;
 
 
@@ -68,10 +66,7 @@ int main() {
 
     populacional1 = populacao1 / area1;
     populacional2 = populacao2 / area2;
-    capita1 = (pib1 * 1000000000.0f / populacao1);
-    capita2 = (pib2 * 1000000000.0f / populacao2);
-    superpoder1 = populacao1 + area1 + pib1 + capita1 + pontos1 + (1.0f / populacional1);
-    superpoder2 = populacao2 + area2 + pib2 + capita2 + pontos2 + (1.0f / populacional2);
+
 
     // Menu do Jogo
 
@@ -81,12 +76,39 @@ int main() {
     printf ("3.PIB.\n");
     printf ("4. Pontos Turitícos.\n");
     printf ("5. Densidade Populaciona.\n");
-    printf ("6. Per Capita.\n");
-    printf ("7. Super Poder.\n\n");
     printf ("Opção.\n");
+    
+    scanf("%d",  &opcao);
+
+   // Jogador escolha qual opção deseja comparar.
+
+switch(opcao){
+    case 1:
+    printf ("Opção escolhida foi População.\n");
+    break;
+    case 2: 
+    printf ("Opção escolhida foi Área:\n");
+    break;
+    case 3:
+    printf ("Opção escolhida foi PIB.\n");
+    break;
+    case 4:
+    printf ("Opção escolhida foi Pontos Turitícos.\n");
+    break;
+    case 5:
+    printf ("Opção escolhida foi Densidade Populaciona.\n");
+    break;
+    default:
+    printf("Opção Inválida\n");
+    break;
+}
 
 
-    scanf("%d", &opcao);
+   //Comparações usando Switch
+   //População
+
+
+
 
     
 

@@ -128,7 +128,7 @@ switch(opcao){
     case 4://caso escolher Ponto Turísticos.
     printf ("Opção escolhida foi Pontos Turísticos.\n");
     if (pontos1 > pontos2){
-    printf(" Carta 1 venceu ( Pontos %d vs %d)!\n", pontos1, ponstos2);
+    printf(" Carta 1 venceu ( Pontos %d vs %d)!\n", pontos1, pontos2);
     }
     else if (pontos2 > pontos1){
     printf(" Carta 2 venceu (Pontos %d vs %d)!\n", pontos2, pontos1);

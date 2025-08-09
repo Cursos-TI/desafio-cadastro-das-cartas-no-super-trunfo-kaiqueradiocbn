@@ -72,11 +72,11 @@ int main() {
 
     printf ("Agora escolha qual Opção você deseja comparar:\n");
     printf ("1. População.\n");
-    printf ("2. Área:\n");
-    printf ("3.PIB.\n");
-    printf ("4. Pontos Turitícos.\n");
-    printf ("5. Densidade Populaciona.\n");
-    printf ("Opção.\n");
+    printf ("2. Área.\n");
+    printf ("3. PIB.\n");
+    printf ("4. Pontos Turísticos.\n");
+    printf ("5. Densidade Populacional.\n");
+    printf ("Digite sua Opção.\n");
     
     scanf("%d",  &opcao);
 
@@ -87,16 +87,16 @@ switch(opcao){
     printf ("Opção escolhida foi População.\n");
     break;
     case 2: 
-    printf ("Opção escolhida foi Área:\n");
+    printf ("Opção escolhida foi Área.\n");
     break;
     case 3:
     printf ("Opção escolhida foi PIB.\n");
     break;
     case 4:
-    printf ("Opção escolhida foi Pontos Turitícos.\n");
+    printf ("Opção escolhida foi Pontos Turísticos.\n");
     break;
     case 5:
-    printf ("Opção escolhida foi Densidade Populaciona.\n");
+    printf ("Opção escolhida foi Densidade Populacional.\n");
     break;
     default:
     printf("Opção Inválida\n");

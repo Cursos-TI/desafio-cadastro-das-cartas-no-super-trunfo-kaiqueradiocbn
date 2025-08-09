@@ -83,22 +83,77 @@ int main() {
    // Jogador escolha qual opção deseja comparar.
 
 switch(opcao){
-    case 1:
+    case 1: //caso escolher População
     printf ("Opção escolhida foi População.\n");
+    if (populacao1 > populacao2){
+    printf(" Carta 1 venceu ( População %d vs %d)!\n", populacao1, populacao2);
+    }
+    else if (populacao2 > populacao1){
+    printf(" Carta 2 venceu (População %d vs %d)!\n", populacao2, populacao1);
+    }
+    else {
+    printf("Empate (%d)!\n", populacao1);
+    }
     break;
-    case 2: 
+
+
+    case 2://caso escolher Área 
     printf ("Opção escolhida foi Área.\n");
+    if (area1 > area2){
+    printf(" Carta 1 venceu ( Área %.2f KM2 vs %.2f KM2)!\n", area1, area2);
+        }
+    else if (area2 > area1){
+    printf(" Carta 2 venceu ( Área %.2f KM2 vs %.2f KM2)!\n", area2, area1);
+    }
+    else {
+    printf("Empate (%.2f)!\n", area1);
+    }
     break;
-    case 3:
+
+
+    case 3://caso escolher PIB
     printf ("Opção escolhida foi PIB.\n");
+    if (pib1 > pib2){
+    printf(" Carta 1 venceu ( PIB %.2f vs %.2f)!\n", pib1, pib2);
+    }
+    else if (pib2 > pib1){
+    printf(" Carta 2 venceu ( PIB %.2f vs %.2f)!\n", pib2, pib1);
+    }
+    else {
+    printf("Empate (%.2f)!\n", pib1);
+    }
     break;
-    case 4:
+    
+
+    case 4://caso escolher Ponto Turísticos.
     printf ("Opção escolhida foi Pontos Turísticos.\n");
+    if (pontos1 > pontos2){
+    printf(" Carta 1 venceu ( Pontos %d vs %d)!\n", pontos1, ponstos2);
+    }
+    else if (pontos2 > pontos1){
+    printf(" Carta 2 venceu (Pontos %d vs %d)!\n", pontos2, pontos1);
+    }
+    else {
+    printf("Empate (%d)!\n", pontos1);
+    }
     break;
-    case 5:
+
+
+    case 5://caso escolher Densidade Populacional.
     printf ("Opção escolhida foi Densidade Populacional.\n");
+    if (populacional1 > populacional2){
+    printf(" Carta 1 venceu ( Populacional %.2f vs %.2f)!\n", populacional1, populacional2);
+    }
+    else if (populacional2 > populacional1){
+    printf(" Carta 2 venceu (Populacional %.2f vs %.2f)!\n", populacional2, populacional1);
+    }
+    else {
+    printf("Empate (%.2f)!\n", populacional1);
+    }
     break;
-    default:
+
+
+    default://caso apertar tecla errada
     printf("Opção Inválida\n");
     break;
 }

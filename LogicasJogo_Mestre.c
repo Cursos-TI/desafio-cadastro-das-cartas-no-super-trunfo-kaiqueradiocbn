@@ -113,36 +113,36 @@ int main()
         printf("Opção escolhida foi População.\n");
         resultado1 = populacao1 > populacao2 ? 1 : 0;
         printf("A Carta 1 ganhou nessa comparação.\n");
-        break;
+    break;
 
     case 2: // caso escolher Área
         printf("Opção escolhida foi Área.\n");
         resultado1 = area1 > area2 ? 1 : 0;
         printf("A Carta 1 ganhou nessa comparação.\n");
-        break;
+    break;
 
     case 3: // caso escolher PIB
         printf("Opção escolhida foi PIB.\n");
         resultado1 = pib1 > pib2 ? 1 : 0;
         printf("A Carta 1 ganhou nessa comparação.\n");
-        break;
+    break;
 
     case 4: // caso escolher Pontos Turísticos.
         printf("Opção escolhida foi Pontos Turísticos.\n");
         resultado1 = pontos1 > pontos2 ? 1 : 0;
         printf("A Carta 1 ganhou nessa comparação.\n");
 
-        break;
+    break;
 
     case 5: // caso escolher Densidade Populacional.
         printf("Opção escolhida foi Densidade Populacional.\n");
         resultado1 = populacional1 < populacional2 ? 1 : 0;
         printf("A Carta 1 ganhou nessa comparação.\n");
-        break;
+    break;
 
     default: // caso apertar tecla errada
         printf("Opção Inválida\n");
-        break;
+    break;
     }
 
     printf("Agora escolha qual *A Segunda Opção* você deseja comparar, diferente da primeira:\n");
@@ -170,26 +170,25 @@ int main()
             printf("Opção escolhida foi População.\n");
             resultado2 = populacao2 > populacao1 ? 1 : 0;
             printf("A Carta 2 ganhou nessa comparação.\n");
-            break;
+        break;
 
         case 2: // caso escolher Área
             printf("Opção escolhida foi Área.\n");
             resultado2 = area2 > area1 ? 1 : 0;
             printf("A Carta 2 ganhou nessa comparação.\n");
-            break;
+        break;
 
         case 3: // caso escolher PIB
             printf("Opção escolhida foi PIB.\n");
             resultado2 = pib2 > pib1 ? 1 : 0;
             printf("A Carta 2 ganhou nessa comparação.\n");
-            break;
+        break;
 
         case 4: // caso escolher Pontos Turísticos.
             printf("Opção escolhida foi Pontos Turísticos.\n");
             resultado2 = pontos2 > pontos1 ? 1 : 0;
             printf("A Carta 2 ganhou nessa comparação.\n");
-
-            break;
+        break;
 
         case 5: // caso escolher Densidade Populacional.
             printf("Opção escolhida foi Densidade Populacional.\n");
@@ -199,15 +198,15 @@ int main()
 
         default: // caso apertar tecla errada
             printf("Opção Inválida\n");
-            break;
+        break;
         }
 
         // Lógica de resultado para ver quem ganhou nas comparações.
-        if (resultado1 == 1 && resultado2 == 1)
+        if (resultado1 == 1 && resultado2 == 0)
         {
             printf("A Carta 1 venceu!\n");
         }
-        else if (resultado1 == 0 != resultado2 == 1)
+        else if (resultado1 == 0 && resultado2 == 1)
         {
             printf(" A Carta 2 venceu!\n");
         }
@@ -215,7 +214,7 @@ int main()
         {
             printf("A rodada terminou em empate!\n");
         }
-
+    }
     
         return 0;
     }

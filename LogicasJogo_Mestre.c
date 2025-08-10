@@ -153,7 +153,7 @@ default://caso apertar tecla errada
 break;
 }
 
-    printf ("Agora escolha qual *A Segunda Opção* você deseja comparar:\n");
+    printf ("Agora escolha qual *A Segunda Opção* você deseja comparar, diferente da primeira:\n");
     printf ("1. População.\n");
     printf ("2. Área.\n");
     printf ("3. PIB.\n");
@@ -166,7 +166,7 @@ break;
 
     if (opcao1 == opcao2) // IF para ver se o jogador não selecionou a mesmo opção repetido
     {
-        printf("Você escolheu o mesmo atributo!\n");// senão segue com else
+        printf("Você escolheu já escolheu essa opção por favor escolha outra opção.\n");// senão segue com else
     } else {
     
         // Jogador escolha qual opção deseja comparar Segundo.
@@ -209,7 +209,18 @@ default://caso apertar tecla errada
 break;
 }
 
+// Lógica de resultado para ver quem ganhou nas comparações.
+if (resultado1 && resultado2)
+{
+    printf ("Parabéns, você venceu!\n");
+    
+}else if (resultado1 != resultado2);{
+    printf("Empatou'\n");
 
+}else{
+    printf ("Infelizmente, você perdeu!\n");
+}
+    
 
 
     

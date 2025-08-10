@@ -114,7 +114,7 @@ int main() {
 
 
 
-   // Jogador escolha qual opção deseja comparar.
+   // Jogador escolha qual opção deseja comparar Primeiro.
 
 switch(opcao1){
 case 1: //caso escolher População
@@ -163,9 +163,16 @@ break;
     
     scanf("%d",  &opcao2);
 
-    
 
-switch(opcao2){
+    if (opcao1 == opcao2) // IF para ver se o jogador não selecionou a mesmo opção repetido
+    {
+        printf("Você escolheu o mesmo atributo!\n");// senão segue com else
+    } else {
+    
+        // Jogador escolha qual opção deseja comparar Segundo.
+
+switch(opcao2)
+{
 case 1: //caso escolher População
     printf ("Opção escolhida foi População.\n");
     resultado2 = populacao2 > populacao1 ? 1 : 0;

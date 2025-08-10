@@ -214,7 +214,7 @@ if (resultado1 && resultado2)
 {
     printf ("Parabéns, você venceu!\n");
     
-}else if (resultado1 != resultado2);{
+}else if (resultado1 != resultado2){
     printf("Empatou'\n");
 
 }else{

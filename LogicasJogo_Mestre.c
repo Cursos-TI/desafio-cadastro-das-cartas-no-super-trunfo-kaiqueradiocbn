@@ -204,11 +204,11 @@ int main()
         // Lógica de resultado para ver quem ganhou nas comparações.
         if (resultado1 == 1 && resultado2 == 0)
         {
-            printf("A Carta 1 venceu!\n");
+            printf("***A Carta 1 venceu!***\n");
         }
         else if (resultado1 == 0 && resultado2 == 1)
         {
-            printf(" A Carta 2 venceu!\n");
+            printf("***A Carta 2 venceu!***\n");
         }
         else
         {
